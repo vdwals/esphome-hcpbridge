@@ -10,7 +10,7 @@
 
 namespace esphome
 {
-  namespace hcpbridge
+  namespace hcpbridge2
   {
 
     class HCPBridge : public PollingComponent

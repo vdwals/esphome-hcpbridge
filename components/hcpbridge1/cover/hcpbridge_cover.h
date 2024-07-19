@@ -7,7 +7,7 @@
 
 namespace esphome
 {
-  namespace hcpbridge
+  namespace hcpbridge1
   {
     class HCPBridgeCover : public cover::Cover, public PollingComponent, public api::CustomAPIDevice
     {

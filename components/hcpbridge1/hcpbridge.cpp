@@ -2,7 +2,7 @@
 
 namespace esphome
 {
-  namespace hcpbridge
+  namespace hcpbridge1
   {
 
     void HCPBridge::setup()

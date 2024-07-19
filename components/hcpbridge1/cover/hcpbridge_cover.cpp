@@ -2,7 +2,7 @@
 
 namespace esphome
 {
-  namespace hcpbridge
+  namespace hcpbridge1
   {
     static const char *const TAG = "hcpbridge.cover";
 

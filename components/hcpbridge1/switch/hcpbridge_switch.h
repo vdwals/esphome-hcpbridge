@@ -6,7 +6,7 @@
 
 namespace esphome
 {
-  namespace hcpbridge
+  namespace hcpbridge1
   {
     class HCPBridgeSwitch : public switch_::Switch, public PollingComponent
     {
