@@ -7,7 +7,7 @@ from esphome.const import (
 
 from .. import hcpbridge_ns, HCPBridge, CONF_HCPBridge_ID
 
-DEPENDENCIES = ['hcpbridge']
+DEPENDENCIES = ['hcpbridge2']
 
 HCPBridgeCover = hcpbridge_ns.class_("HCPBridgeCover", cover.Cover, cg.PollingComponent)
 

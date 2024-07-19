@@ -3,7 +3,7 @@ import esphome.config_validation as cv
 import esphome.codegen as cg
 from .. import hcpbridge_ns, CONF_HCPBridge_ID, HCPBridge
 
-DEPENDENCIES = ["hcpbridge"]
+DEPENDENCIES = ["hcpbridge1"]
 
 HCPBridgeSwitch = hcpbridge_ns.class_("HCPBridgeSwitch", switch.Switch, cg.Component)
 

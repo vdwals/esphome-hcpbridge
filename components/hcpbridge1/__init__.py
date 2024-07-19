@@ -15,7 +15,7 @@ AUTO_LOAD = ["binary_sensor"]
 CONF_IS_CONNECTED = "is_connected"
 
 
-hcpbridge_ns = cg.esphome_ns.namespace("hcpbridge")
+hcpbridge_ns = cg.esphome_ns.namespace("hcpbridge1")
 HCPBridge = hcpbridge_ns.class_("HCPBridge", cg.Component)
 
 CONF_HCPBridge_ID = "hcpbridge_id"
